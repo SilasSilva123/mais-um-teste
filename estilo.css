@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background-image: url(pixel-art-wallpaper-20072220050556.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+ 
+#tudo{
+    display: grid;
+    place-content: center;
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 900px;
+}
+
+
+
+#caixa1{
+ border: black solid 1.5px;
+ border-radius: 15px;
+ background-image: linear-gradient(rgb(214, 28, 231), rgb(151, 19, 184), rgb(210, 107, 241));
+ display: grid;
+ padding: 7px;
+}
+
+
+#caixa2{
+    border: solid black 1.5px;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    display: grid;
+
+}
+
+
+.dados{
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgb(235, 159, 228);
+    height: 25px;    
+}
+
+
+#titulo{
+    margin-left: 100px;
+    color: rgb(182, 64, 211);
+    text-shadow: 2px 4px 20px rgb(190, 62, 230);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;  
+    display: grid;
+    justify-items: center;  
+}
+
+
+#submitbtn{
+   cursor: pointer;
+   width: 90px;
+}
